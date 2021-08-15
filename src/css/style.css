@@ -1,0 +1,454 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 422px;
+    
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background:url(../img/cat%20with%20earth.png) 90% 100%/auto 85% no-repeat ,url(../img/fon.jpg) center/cover no-repeat;
+
+}
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682 ;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.inform h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #263244;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 108px 0px 298px 0px;
+}
+
+.inform{
+    background: url(../img/stick.png) no-repeat 50% 163px, url(../img/cfoto.png) no-repeat 50% 100%;
+}
+
+.inform_opis h4{
+    color: #3f495a;
+    text-align: left;
+    margin: 26px auto 16px 596px;
+    font-size: 13px;
+}
+
+.download_r{
+    background: url(../img/download.png) no-repeat 11px 50%;
+    color: #6f707e;
+    text-align: center;
+    border: 2px solid #6f707e ;
+    border-radius: 5px;
+    margin: 24px auto 99px 888px;
+    padding: 9px 11px 10px 32px;
+    font-size: 13px;
+}
+.skill_back{
+    width: 100%;
+    height: 523px;
+    background:url(../img/laptop.png) no-repeat 495px 275px, url(../img/znak.png) no-repeat 790px 274px,
+        url(../img/rocket.png) no-repeat 1085px 268px, url(../img/megafon.png) no-repeat 1376px 271px,url(../img/stick.png) no-repeat 50% 160px, url(../img/fon_skill.jpg) no-repeat center/cover;
+}
+.skill h2{
+    padding: 107px 0px 0px 0px;
+    text-align: center;
+    color: #263244;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.skill_title{
+    text-align: center;
+    float: left;
+}
+.skill_1{
+    margin: 0px 0px 0px 360px;
+}
+
+.skill_3{
+    margin: 0px 0px 0px -50px;
+}
+.skill_4{
+    margin: 0px 0px 0px -47px;
+}
+
+.skill_title h3{
+    padding:220px 100px 0px 100px;
+    color: #cf7600;
+    font-size: 20px;
+    font-weight: ;
+}
+
+.skill_title h4{
+    color: #3f495a;
+    font-size: 13px;
+}
+
+.skill_desc{
+    margin-top: 20px;
+}
+
+.case_back{
+    width: 100%;
+    height: 1256px;
+    background: url(../img/stick.png) no-repeat 50% 164px,url(../img/k_site.jpg) no-repeat 50% 50%/70% ;
+    background-size: ;
+    390 364 255
+}
+
+.case h2{
+    text-align: center;
+    color: #384354;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 116px;
+}
+
+.case_opis h4{
+    text-align: center;
+    color: #3f495a;
+    font-size: 15px;
+    padding-top: 75px
+}
+
+.case_down{
+    padding-top: 783px;
+    padding-left: 389px;
+}
+.case_proekt_title h3{
+    font-size: 23px;
+    font-weight: bold;
+    color: #384354;
+    
+}
+.case_proekt_desc h5{
+    font-size: 13px;
+    font-weight: bold;
+    color: #3f495a;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.case_proekt_desc h4{
+    font-size: 17px;
+    color: #3f495a;
+}
+
+.case_down input{
+    border: 1px solid #63b5ae;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background: #63b5ae;
+    padding: 12px 39px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 84px
+}
+
+.case_down_r{
+    padding: 0px 344px 0px 284px;
+    margin-top: -146px
+}    
+    
+.calculation h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1c2534;
+    text-align: center;
+}
+
+.calculation_block{
+    padding-left: 494px;
+    padding-top: 60px; 
+    
+}
+
+.calculation_chapter h3{
+    font-size: 23px;
+    color: #1c2534;
+    font-weight: bold;
+}
+
+.calculation_v {
+    color: #737373;
+    border: 1px solid #eeeeee;
+    padding: 15px 735px 15px 24px;
+    background: #eeeeee;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+#dsn{
+    padding-right: 738px; 
+}
+
+#adp{
+    padding-right: 717px;
+}
+
+.result li{
+    color: #1c2534;
+    padding-bottom: 10px
+}
+
+li.result_w{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li.result_n{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 875px;
+    margin-top: -25px;
+}
+
+.line_rst{
+    margin-top: -13px;
+}
+
+.statistics_back{
+    margin-top: 150px;
+    background:url(../img/kubok.png) no-repeat 1370px 246px,url(../img/galka.png) no-repeat 1078px 250px,url(../img/skobka.png) no-repeat 784px 251px,url(../img/smile.png) no-repeat 495px 246px,url(../img/stick.png) no-repeat 50% 156px, url(../img/fon_stat.jpg) no-repeat 0px 0px;
+    padding-bottom: 366px
+}
+
+.statistics h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #323e4f;
+    padding-top: 103px;
+    text-align: center;
+}
+.statistics_num li h2{
+    color: #323e4f;
+    font-weight: bold;
+    font-size: 36px;
+    float:left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 206px;
+}
+
+.statistics_sim li h5{
+    color: #323e4f;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    float:left;
+}
+
+.stat_1{
+    margin-left: 390px;
+}
+.stat_2{
+    margin-left: 20px;
+}
+
+.stat_3{
+    margin-left: 10px;
+}
+
+.stat_4{
+    margin-left: 51px;
+}
+
+.stat_sim_1{
+    margin-left: 325px;
+}
+
+.stat_sim_2{
+    margin-left: -55px;
+}
+
+.stat_sim_3{
+    margin-left: -63px;
+}
+
+.stat_sim_4{
+    margin-left: -64px;
+}
+
+.reviews_back{
+    background: url(../img/foto.png) no-repeat 50% 0225px, url(../img/stick.png) no-repeat 50% 160px;
+    padding-bottom: 100px
+}
+
+.reviews h2{
+    font-size: 30px;
+    color: #243042;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 235px;
+}
+
+.reviews1 h4{
+    font-size: 13px;
+    text-align: center;
+    color: #3e4755;
+    padding-bottom: 38px;
+    
+}
+
+.reviews1_name h5{
+    font-size: 13px;
+    text-align: center;
+    color: #3e4755;
+    padding-bottom: 50px;
+}
+
+.reviews_ver{
+    padding-left: 930px;
+}
+
+footer{
+    background:url(../img/phone.png) no-repeat 1191px 256px,url(../img/letter.png) no-repeat 946px 258px, url(../img/point.png) no-repeat 708px 250px,url(../img/stick.png) no-repeat 50% 158px , url(../img/fon_bottom.jpg) no-repeat 0px 0px;
+    padding-bottom: px;
+}
+
+.contakts h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 106px;
+}
+
+.contakts_l h5{
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 88px;
+}
+.contakts_desc li h5{
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.message h3{
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.message_form_b{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    padding: 15px 16px 10px 15px;
+    margin: 28px auto 170px 896px; 
+}
+
+li.contakts_desc1 h5{
+    padding-left: 652px;
+}
+
+li.contakts_desc2 h5{
+    padding-left: 87px;
+}
+
+li.contakts_desc3 h5{
+    padding-left: 95px;
+    padding-right: 600px
+}
+
+.message_form_v1{
+    background: #d2d6dc;
+    padding: 9px 212px 11px 12px;
+    color: #5d5d5e;
+    margin-left: 545px;
+    margin-right: 14px;
+    margin-top: 42px;
+    opacity: 0.9;
+}
+
+.message_form_v2{
+    background: #d2d6dc;
+    padding: 9px 212px 11px 12px;
+    color: #5d5d5e;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 42px;
+    opacity: 0.9;
+}
+
+.message_form textarea{
+    margin-left: 545px;
+    margin-top: 16px;
+    background: #d2d6dc;
+    color: #5d5d5e;
+    padding: 9px 647px 75px 14px;
+    opacity: 0.9;
+}
+
+.end{
+    width: 100%;
+    height: 92px;
+    background: #354051;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
