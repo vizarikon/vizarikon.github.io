@@ -6,7 +6,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
-    
+    position: fixed;
 }
 
 .logo{
@@ -15,11 +15,33 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    -webkit-animation: start1 2s ease;
+    -o-animation: start1 2s ease;
+    animation: start1 2s ease;
 }
+@keyframes start1{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .menu{
     float: left;
     padding-left: 422px;
     
+}
+@keyframes start2{
+    0%{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
 }
 
 .menu li{
@@ -29,24 +51,88 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-animation: start2 0.4s ease forwards;
+    -o-animation: start2 0.4s ease forwards;
+    animation: start2 0.4s ease forwards;
+    opacity: 0;
 }
+
+.menu li:nth-child(2){
+    animation-delay: 0.7s;
+}
+
+.menu li:nth-child(3){
+    animation-delay: 1s;
+}
+
+.menu li:nth-child(4){
+    animation-delay: 1.3s;
+}
+
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+    animation-delay: 1.9s;
+}
+
+.menu li a {
+    transition: all 0.2s;
+    color: white;
+    display: inline-block;
+    transform: scale(1);
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: greenyellow;
+    
+}
+
+.menu li a:active{
+    transform: scale(1.1);
+}
+
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background:url(../img/cat%20with%20earth.png) 90% 100%/auto 85% no-repeat ,url(../img/fon.jpg) center/cover no-repeat;
 
 }
+
 .title__container{
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    -webkit-animation: start3 1s ease forwards;
+    -o-animation: start3 1s ease forwards;
+    animation: start3 1s ease forwards;
+    opacity: 0;
+    -webkit-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+@keyframes start3{
+    0%{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 432px;
+    }
 }
 
 .title__container h1{
     font-size: 60px;
     font-weight: bold;
 }
+
 .title__container h4{
     margin-top: 40px;
     font-size: 22px;
@@ -63,6 +149,17 @@ nav{
     font-size: 13px;
     padding: 0px 16px;
     margin: 50px 14px 0px 14px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title__container input:hover{
+    background: #6d7682;
+    color: white;
+}
+
+.title__container input:active{
+    transform: scale(1.1);
 }
 
 .inform h2{
@@ -94,13 +191,26 @@ nav{
     margin: 24px auto 99px 888px;
     padding: 9px 11px 10px 32px;
     font-size: 13px;
+    transition: all 0.2s;
+    transform: scale(1);
 }
+
+.download_r:hover{
+    background:url(../img/download-a.png) no-repeat 11px 50%,#6d7682;
+    color: white;
+}
+
+.download_r:active{
+    transform: scale(1.1);
+}
+
 .skill_back{
     width: 100%;
     height: 523px;
     background:url(../img/laptop.png) no-repeat 495px 275px, url(../img/znak.png) no-repeat 790px 274px,
         url(../img/rocket.png) no-repeat 1085px 268px, url(../img/megafon.png) no-repeat 1376px 271px,url(../img/stick.png) no-repeat 50% 160px, url(../img/fon_skill.jpg) no-repeat center/cover;
 }
+
 .skill h2{
     padding: 107px 0px 0px 0px;
     text-align: center;
@@ -109,10 +219,12 @@ nav{
     font-weight: bold;
 
 }
+
 .skill_title{
     text-align: center;
     float: left;
 }
+
 .skill_1{
     margin: 0px 0px 0px 360px;
 }
@@ -120,6 +232,7 @@ nav{
 .skill_3{
     margin: 0px 0px 0px -50px;
 }
+
 .skill_4{
     margin: 0px 0px 0px -47px;
 }
@@ -167,12 +280,14 @@ nav{
     padding-top: 783px;
     padding-left: 389px;
 }
+
 .case_proekt_title h3{
     font-size: 23px;
     font-weight: bold;
     color: #384354;
     
 }
+
 .case_proekt_desc h5{
     font-size: 13px;
     font-weight: bold;
@@ -180,6 +295,7 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;    
 }
+
 .case_proekt_desc h4{
     font-size: 17px;
     color: #3f495a;
@@ -194,7 +310,12 @@ nav{
     padding: 12px 39px;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 84px
+    margin-top: 84px;
+    transform: scale(1);
+}
+
+.case_down input:active{
+    transform: scale(1.1);
 }
 
 .case_down_r{
@@ -228,6 +349,10 @@ nav{
     background: #eeeeee;
     margin-top: 24px;
     margin-bottom: 50px;
+}
+
+.calculation_v:active{
+    border: 2px solid black;
 }
 
 #dsn{
@@ -272,6 +397,7 @@ li.result_n{
     padding-top: 103px;
     text-align: center;
 }
+
 .statistics_num li h2{
     color: #323e4f;
     font-weight: bold;
@@ -294,6 +420,7 @@ li.result_n{
 .stat_1{
     margin-left: 390px;
 }
+
 .stat_2{
     margin-left: 20px;
 }
@@ -375,6 +502,7 @@ footer{
     padding-top: 59px;
     padding-bottom: 88px;
 }
+
 .contakts_desc li h5{
     font-size: 13px;
     color: #fff;
@@ -391,7 +519,7 @@ footer{
     padding-top: 42px;
 }
 
-.message_form_b{
+.message_form_b {
     font-size: 15px;
     color: #fff;
     text-align: center;
@@ -400,6 +528,37 @@ footer{
     background: none;
     padding: 15px 16px 10px 15px;
     margin: 28px auto 170px 896px; 
+}
+
+.message_form_b:hover{
+    color: darkgray;
+    border-color: darkred;
+}
+
+.message_form:active{
+    -webkit-animation: send 4s;
+    -o-animation: send 4s;
+    animation: send 4s;
+}
+@keyframes send{
+    0%{
+        opacity: 1;
+        margin-left: 0px;
+    }
+    1%{
+       display: none; 
+    }
+    49%{
+        opacity: 0;
+        margin-left: 1500px;
+    }
+    50%{
+        margin-left: -1500px;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0px;
+    }
 }
 
 li.contakts_desc1 h5{
@@ -417,7 +576,10 @@ li.contakts_desc3 h5{
 
 .message_form_v1{
     background: #d2d6dc;
-    padding: 9px 212px 11px 12px;
+    width: 393px;
+    height: 34px;
+    padding-left: 12px;
+    padding-right: 11px;
     color: #5d5d5e;
     margin-left: 545px;
     margin-right: 14px;
@@ -427,12 +589,16 @@ li.contakts_desc3 h5{
 
 .message_form_v2{
     background: #d2d6dc;
-    padding: 9px 212px 11px 12px;
+    width: 393px;
+    height: 34px;
+    padding-left: 12px;
+    padding-right: 11px;
     color: #5d5d5e;
     margin-left: 14px;
     margin-right: 14px;
     margin-top: 42px;
     opacity: 0.9;
+    
 }
 
 .message_form textarea{
@@ -440,7 +606,9 @@ li.contakts_desc3 h5{
     margin-top: 16px;
     background: #d2d6dc;
     color: #5d5d5e;
-    padding: 9px 647px 75px 14px;
+    width: 818px;
+    height: 117px;
+    padding: 9px 11px 9px 12px;
     opacity: 0.9;
 }
 
@@ -452,3 +620,35 @@ li.contakts_desc3 h5{
     color: #fff;
     padding-top: 40px;
 }
+
+<style type="text/css">
+	#preloader_malc {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .6);
+		z-index: 99
+	}
+
+	#preloader_malc div {
+		background: #fff;
+		width: 260px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 8px;
+		font-family: arial;
+		font-size: 15px;
+		color: #111;
+		text-align: center;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+</style>
